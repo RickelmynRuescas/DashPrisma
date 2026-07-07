@@ -1,0 +1,26 @@
+# Planilhas com dados internos de minha profissionalidade — uso apenas local, não enviar ao repositório
+data/
+Planilhas-Resultados-Antes/
+Planilhas-Resultados-Depois/
+*.xlsx
+
+# Rascunhos da análise (números crus + dados individuais de respondentes) — uso local
+scratch_resultado.json
+scratch_*.json
+
+# Arquivos temporários / sistema
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Dependências locais (caso futuramente use algum script)
+__pycache__/
+*.pyc
+node_modules/
+
+# Configurações locais do Claude Code
+.claude/
+
+# Anotações internas de contexto (não fazem parte do site público)
+claude.md
+CLAUDE.md
